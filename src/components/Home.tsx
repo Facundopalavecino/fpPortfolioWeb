@@ -7,7 +7,7 @@ import MoodIcon from '@mui/icons-material/Mood';
 import PhoneIcon from '@mui/icons-material/Phone';
 
 import Tilt from "react-parallax-tilt";
-import downloadCV from '../assets/user-dowload/CV2024.pdf'
+import downloadCV from '../assets/user-dowload/Facundo Palavecino CV.pdf'
 import Avatar from '../assets/avatar/avatarIA.jpg';
 
 const Header = () => {
