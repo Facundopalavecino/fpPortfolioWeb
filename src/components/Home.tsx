@@ -7,8 +7,8 @@ import MoodIcon from '@mui/icons-material/Mood';
 import PhoneIcon from '@mui/icons-material/Phone';
 
 import Tilt from "react-parallax-tilt";
-import Avatar from '../assets/avatar/avatarIA.jpg';
 import downloadCV from '../assets/user-dowload/CV2024.pdf'
+import Avatar from '../assets/avatar/avatarIA.jpg';
 
 const Header = () => {
   return (
@@ -37,7 +37,7 @@ const Header = () => {
             </Link>
         </div>
         <Tilt>
-              <img className='Avatar' src={Avatar} alt="" />
+              <img className='Avatar' src={Avatar} alt="avatar" />
         </Tilt>
         
       </div>
