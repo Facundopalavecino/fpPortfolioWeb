@@ -25,9 +25,9 @@ Estoy convencido de que mis habilidades, combinadas con mi entusiasmo y dedicaci
                 <Skills skill="Typescript"/>    
                 <Skills skill="Java"/>
                 <Skills skill="Python"/>
+                <Skills skill="C++"/>     
                 <Skills skill="GitHub"/>
                 <Skills skill="Git"/>
-                <Skills skill="C++"/>     
             </div>       
         </div>       
        </div> 

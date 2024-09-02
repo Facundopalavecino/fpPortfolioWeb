@@ -8,12 +8,12 @@ import PhoneIcon from '@mui/icons-material/Phone';
 
 import Tilt from "react-parallax-tilt";
 import Avatar from '../assets/avatar/avatarIA.jpg';
-import downloadCV from '../assets/user-dowload/CV2024.pdf';
+import downloadCV from '../assets/user-dowload/CV2024.pdf'
 
 const Header = () => {
   return (
     <div>      
-      <div className='HomePage'>
+      <div className='HomePage'> 
         <div className='HomeText'>
             <h1>!Hola!</h1>
             <h1>

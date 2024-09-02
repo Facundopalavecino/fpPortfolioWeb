@@ -17,15 +17,15 @@ const MisProyectos = () => {
             paddingTop:'5rem'
         }}>
             <div className='cardsProyects' style={{border:'none'}}>
-                <h3 style={{padding:'1rem'}} >Mis principales <b>proyectos</b></h3>
-                <Card className='proyectsBox' sx={{maxWidth:450, borderRadius:5}}>
-                    <CardMedia className='cardMedia'
+                <h3 style={{paddingBottom:'3rem',paddingTop:'2rem'}} >Mis principales <b>proyectos</b></h3>
+                <Card className='proyectsBox'>
+                    <CardMedia 
                         component="img"
                         height="200"
                         image={gitHub2}
                         alt='gitHub2'
                         />
-                    <CardMedia className='cardMedia'
+                    <CardMedia 
                         component="img"
                         height="200"
                         image={gitHub3}
@@ -44,8 +44,8 @@ const MisProyectos = () => {
                     </CardContent>
                 </Card>
                 <br />
-                <Card className='proyectsBox' sx={{maxWidth:450, borderRadius:5}}>
-                    <CardMedia className='cardMedia'
+                <Card className='proyectsBox'>
+                    <CardMedia 
                         component="img"
                         height="400"
                         image={weatherApp}
@@ -62,14 +62,14 @@ const MisProyectos = () => {
                     </CardContent>
                 </Card>
                 <br />
-                <Card className='proyectsBox' sx={{maxWidth:450, borderRadius:5}}>
-                    <CardMedia className='cardMedia'
+                <Card className='proyectsBox'>
+                    <CardMedia 
                         component="img"
                         height="200"
                         image={mikasa1}
                         alt='mikasa1'
                         />
-                    <CardMedia className='cardMedia'
+                    <CardMedia
                         component="img"
                         height="200"
                         image={veganVird1}
@@ -87,8 +87,8 @@ const MisProyectos = () => {
                     </CardContent>
                 </Card>
                 <br />
-                <Card className='proyectsBox' sx={{maxWidth:450, borderRadius:5}}>
-                    <CardMedia className='cardMedia'
+                <Card className='proyectsBox'>
+                    <CardMedia
                         component="img"
                         height="400"
                         image={allJowey}
