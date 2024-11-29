@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Typography, CardContent, CardMedia } from '@mui/material';
+import { Card, Typography, CardContent, CardMedia, Button, ImageList } from '@mui/material';
 
 import gitHub3 from '../assets/image-proyect/gitHub3.png';
 import gitHub2 from '../assets/image-proyect/gitHub2.png';
@@ -10,7 +10,6 @@ import allJowey from '../assets/image-proyect/allJowey-COLLAGE.jpg';
 
 const MisProyectos = () => {
     return (
-        
         <div style={{textAlign:'center',
             display:'flex',
             justifyContent:'center',
@@ -36,11 +35,14 @@ const MisProyectos = () => {
                             GihHub Search
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                        He creado una aplicación donde los usuarios pueden escribir el nombre de un usuario de GitHub y obtener información sobre su perfil.
-                        Herramientas: React - Axios: Para hacer solicitudes a la API de GitHub
-                        API de GitHub para obtener los datos del perfil de los usuarios.
-                        Este proyecto demuestra cómo se pueden utilizar tecnologías modernas como React y Axios para construir aplicaciones interactivas que consumen datos de APIs externas.
+                        He creado una aplicación donde los usuarios escribren el nombre de un usuario de GitHub y visitar su perfil.
+                        Herramientas: HTML, CSS, Javascript, Fetch API, DOM Manipulation.
+                        Se utilizó la GitHub REST API para obtener datos relacionados con los usuarios.
                         </Typography>
+                        <Button variant="contained"
+                        href="https://git-hub-users-one.vercel.app/" target="_black">
+                        Visita el sitio web 
+                        </Button>
                     </CardContent>
                 </Card>
                 <br />
@@ -56,9 +58,13 @@ const MisProyectos = () => {
                             Wheather App
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                        He creado una aplicación donde los usuarios pueden escribir el nombre de una ciudad o país y obtener información sobre el clima actual en ese lugar.
-                        Herramientas : React - Axios para hacer solicitudes a la API de clima - API de OpenWeatherMap
+                        Este proyecto permite a los usuarios buscar el clima actual de cualquier ciudad ingresando su nombre en un campo de búsqueda. La aplicación utiliza la API de OpenWeatherMap para obtener y mostrar datos en tiempo real.
+                        Herramientas: HTML, CSS, Javascript, Fetch API, DOM Manipulation
                         </Typography>
+                        <Button variant="contained"
+                        href="https://wheater-app-silk.vercel.app/" target="_black">
+                        Visita el sitio web 
+                        </Button>
                     </CardContent>
                 </Card>
                 <br />
@@ -104,8 +110,8 @@ const MisProyectos = () => {
                         <i> -- Este proyecto es solo una simulacion</i>
                         </Typography>
                     </CardContent>
-                </Card>
-            </div>
+                </Card>   
+            </div>            
         </div>
     );
 };
