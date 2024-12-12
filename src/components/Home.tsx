@@ -47,6 +47,7 @@ const Header = () => {
           <a className='aHome' href={downloadCV} download={downloadCV}>¡Descarga mi CV!</a>
         </button>
       </Box>
+      
     </div>
   );
 };
