@@ -4,6 +4,7 @@ import { Card, Typography, CardContent, CardMedia, Button, ImageList } from '@mu
 import gitHub3 from '../assets/image-proyect/gitHub3.png';
 import gitHub2 from '../assets/image-proyect/gitHub2.png';
 import weatherApp from '../assets/image-proyect/wheaterapp.png';
+import cryptoPrice from '../assets/image-proyect/cryptoPrice.png'
 import mikasa1 from '../assets/image-proyect/mikasa1.png';
 import veganVird1 from '../assets/image-proyect/veganVird1.png';
 import allJowey from '../assets/image-proyect/allJowey-COLLAGE.jpg';
@@ -68,6 +69,27 @@ const MisProyectos = () => {
                     </CardContent>
                 </Card>
                 <br />
+                <Card className='proyectsBox'>
+                    <CardMedia 
+                        component="img"
+                        height="400"
+                        image={cryptoPrice}
+                        alt='cryptoPrice'
+                        />
+                    <CardContent>
+                        <Typography  variant="h5" component="div" >
+                            Crypto Price
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        Crypto Price es una aplicación web desarrollada en React + Vite + TypeScript, que permite al usuario consultar en tiempo real el precio, capitalización de mercado y variación porcentual de cualquier criptomoneda.
+                        La app consuma la API de CoinGecko</Typography>
+                        <Button variant="contained"
+                        href="https://crypo-price.vercel.app/" target="_black">
+                        Visita el sitio web 
+                        </Button>
+                    </CardContent>
+                </Card>
+                <br/>
                 <Card className='proyectsBox'>
                     <CardMedia 
                         component="img"

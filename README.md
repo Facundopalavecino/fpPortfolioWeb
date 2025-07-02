@@ -27,12 +27,5 @@ El proyecto está **completado** y listo para ser desplegado y utilizado. Contin
 - **Sección "Sobre Mí"**: Una página que describe quién soy, mi formación y habilidades.
 - **Sección de Proyectos**: Muestra los proyectos que he desarrollado, con una breve descripción de cada uno.
 
-🎉 Instalación y Uso
-Clona el repositorio: git clone https://github.com/tu-usuario/tu-repositorio.git
-Navega al directorio del proyecto: cd tu-repositorio
-Instala las dependencias: npm install
-Ejecuta la aplicación: npm start
-Abre http://localhost:3000 en tu navegador para ver el portfolio.
-
 📫 Contacto
 ¡Gracias por visitar mi portfolio! Si deseas contactarme, puedes enviarme un correo a palavecinofacundo.e@outlook.com o seguirme en LinkedIn : http://www.linkedin.com/in/facundo-palavecino-737659289 .
