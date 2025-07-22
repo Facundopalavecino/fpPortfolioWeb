@@ -3,7 +3,6 @@ import { Box, Typography } from '@mui/material';
 
 import WhatsappIcon from '@mui/icons-material/WhatsApp';
 import EmailIcon from '@mui/icons-material/Email';
-import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
@@ -26,12 +25,6 @@ const Contact = () => {
                         <a style={{color:'gray', textDecoration:'none'}} href="mailTo:palavecinofacundo.e@outlook.com" target="_blank">
                         <EmailIcon sx={{ fontSize: '3rem' }}/>    
                         </a>   
-                    </div>
-                    <br />
-                    <div className="contactBox">
-                        <a style={{color:'red', textDecoration:'none'}} href="https://www.instagram.com/ffacupalavecino/" target="_blank">
-                        <InstagramIcon sx={{ fontSize: '3rem' }}/>
-                        </a>
                     </div>
                     <br />
                     <div className="contactBox">

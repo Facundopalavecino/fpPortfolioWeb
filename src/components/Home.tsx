@@ -2,12 +2,9 @@ import { Box } from '@mui/material';
 import React from 'react';
 import { Link } from "react-router-dom";
 import Type from './Type.tsx';
-
 import MoodIcon from '@mui/icons-material/Mood';
 import PhoneIcon from '@mui/icons-material/Phone';
-
 import Tilt from "react-parallax-tilt";
-import downloadCV from '../assets/user-dowload/Facundo Palavecino CV.pdf'
 import Avatar from '../assets/avatar/avatarIA.jpg';
 
 const Header = () => {
@@ -38,16 +35,8 @@ const Header = () => {
         </div>
         <Tilt>
               <img className='Avatar' src={Avatar} alt="avatar" />
-        </Tilt>
-        
+        </Tilt>      
       </div>
-      
-      <Box sx={{textAlign:'center'}}>
-        <button className='buttonHome'>
-          <a className='aHome' href={downloadCV} download={downloadCV}>¡Descarga mi CV!</a>
-        </button>
-      </Box>
-      
     </div>
   );
 };

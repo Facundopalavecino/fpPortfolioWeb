@@ -6,12 +6,14 @@ import { SiReact } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
-import { RiBootstrapFill } from "react-icons/ri";
+import { SiVite } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { BsGit } from "react-icons/bs";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { CgCPlusPlus } from "react-icons/cg";
 import { SiTypescript } from "react-icons/si";
+import { FaNode } from "react-icons/fa";
+
 
 const Skills = ({skill}) =>{
 
@@ -22,12 +24,13 @@ const Skills = ({skill}) =>{
     Java: <FaJava/>,
     React: <SiReact/>,
     Python: <FaPython/>,
-    Bootstrap: <RiBootstrapFill/>,
+    Vite: <SiVite/>,
     GitHub: <FaGithub/>,
     Git: <BsGit/>,
     Tailwind: <RiTailwindCssFill/>,
     "C++": <CgCPlusPlus/>,
-    Typescript: <SiTypescript/>
+    Typescript: <SiTypescript/>,
+    NodeJs: <FaNode/>
   }
 
   return (
